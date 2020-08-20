@@ -1,0 +1,37 @@
+let Star ={fname:"AKshay",Lname:"Kumar"};
+undefined
+star.fname
+VM305:1 Uncaught ReferenceError: star is not defined
+    at <anonymous>:1:1
+Star.fname
+"AKshay"
+Star.Movie="Kesari";
+"Kesari"
+Star
+{fname: "AKshay", Lname: "Kumar", Movie: "Kesari"}
+Star.address={city:"Mumbai",Area:"Juhu"};
+{city: "Mumbai", Area: "Juhu"}
+Star
+{fname: "AKshay", Lname: "Kumar", Movie: "Kesari", address: {…}}
+Lname: "Kumar"
+Movie: "Kesari"
+address: {city: "Mumbai", Area: "Juhu"}
+fname: "AKshay"
+__proto__: Object
+
+
+//Creation Array of JSON 
+
+		let arr=[{id:007,name:"Dhoni"},{id:010,name:"Sachin"},{id:008, name:"Yuvi"}]
+
+
+let sampleJson=[{id:1},{id:2},{id:3}]
+
+
+refjson.name="Kumar"
+"Kumar"
+refjson
+{name: "Kumar", list: Array(0)}
+let sampleJson=[{id:1},{id:2},{id:3}]
+
+undefined
