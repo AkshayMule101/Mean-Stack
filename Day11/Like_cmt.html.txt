@@ -1,0 +1,10 @@
+<div style="background: red;color:white;display: flex;
+justify-content: center; height: 60px;">
+  {{mypost}}
+</div>
+
+
+<button (click)="increment()">Like{{counter}}</button>
+<button>
+  comment here
+</button>

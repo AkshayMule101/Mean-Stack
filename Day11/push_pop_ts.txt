@@ -1,0 +1,28 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css'],
+})
+
+export class AppComponent { //angular create this class as a component  type of class is component
+  title = "Indian Cricket Team";
+
+
+
+  list = ["rohit", "shikhar", "virat", "rahane", "dhoni", "Pandya", "Jadeja", "Ashwin", "Bhuvi", "Shami", "Bumrah"];
+
+  /*member functions on certain events*/
+
+  add() {
+    console.log("I am called");
+
+    this.list.push("Yuvi!!");
+
+  }
+
+  remove() {
+    this.list.pop();
+  }
+}

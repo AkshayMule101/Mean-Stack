@@ -1,0 +1,8 @@
+<div>
+  <h1>{{title}}</h1>
+
+  <button (click)="add()">Add</button>
+  <button (click)="remove()">Remove</button>
+  <div *ngFor="let item of list">Hello {{item}}</div>
+
+</div>

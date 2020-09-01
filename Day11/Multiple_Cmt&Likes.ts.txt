@@ -1,0 +1,31 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css'],
+})
+
+export class AppComponent {
+  title = "My Project";
+
+  list = [];
+
+  mypost = "Hello world"
+
+  counter = 0;
+
+
+  comment = "hello world";
+
+  commentList = ["this is comment"];
+
+
+  addComment() {
+    this.commentList.push("INDIA");
+  }
+
+  increment() {
+    this.counter += 1;
+  }
+}
