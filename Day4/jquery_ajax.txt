@@ -1,0 +1,23 @@
+let url="https://api.openweathermap.org/data/2.5/weather?q=mumbai&appid=7023923dd26a725da995c75b65864de5&units=metric"
+undefined
+$.ajax(url).done((data))=>{
+VM198:1 Uncaught SyntaxError: Malformed arrow function parameter list
+$.ajax(url).done((data))=>{
+console.log(data);
+
+
+VM313:1 Uncaught SyntaxError: Malformed arrow function parameter list
+$.ajax(url).done((data)=>{
+console.log(data);
+});
+
+
+
+{readyState: 1, getResponseHeader: ƒ, getAllResponseHeaders: ƒ, setRequestHeader: ƒ, overrideMimeType: ƒ, …}
+VM326:2 {coord: {…}, weather: Array(1), base: "stations", main: {…}, visibility: 1000, …}base: "stations"clouds: {all: 90}cod: 200coord: {lon: 72.85, lat: 19.01}dt: 1597980125id: 1275339main: {temp: 26, feels_like: 29.88, temp_min: 26, temp_max: 26, pressure: 1004, …}name: "Mumbai"sys: {type: 1, id: 9052, country: "IN", sunrise: 1597971087, sunset: 1598016740}timezone: 19800visibility: 1000weather: [{…}]wind: {speed: 3.6, deg: 220}__proto__: Object
+$.ajax(url).done((data)=>{
+console.log(data.main_temp);
+});
+
+
+{readyState: 1, getResponseHeader: ƒ, getAllResponseHeaders: ƒ, setRequestHeader: ƒ, overrideMimeType: ƒ, …}
